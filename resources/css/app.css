@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.title{
+    @apply font-cmyRaleway text-4xl font-extrabold sm:text-5xl md:text-6xl lg:text-7xl;
+}
+.description{
+    @apply text-xs text-cmySlate-500 sm:text-sm md:text-lg lg:text-xl;
+}
+
+.text-cmyBase{
+    @apply text-xs sm:text-sm md:text-sm lg:text-base;
+}
