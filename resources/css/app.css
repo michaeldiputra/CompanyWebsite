@@ -2,13 +2,28 @@
 @tailwind components;
 @tailwind utilities;
 
-.title{
-    @apply font-cmyRaleway text-4xl font-extrabold sm:text-5xl md:text-6xl lg:text-7xl;
+h1{
+    @apply font-cmyRaleway font-extrabold text-4xl sm:text-5xl md:text-6xl lg:text-7xl;
 }
-.description{
-    @apply text-xs text-cmySlate-500 sm:text-sm md:text-lg lg:text-xl;
+h2{
+    @apply font-cmyRaleway font-extrabold text-3xl sm:text-4xl md:text-5xl lg:text-6xl;
 }
-
+p{
+    @apply text-cmySlate-500;
+}
+.text-cmy2xl{
+    @apply text-lg sm:text-xl md:text-xl lg:text-2xl;
+}
+.text-cmyXl{
+    @apply text-base sm:text-lg md:text-lg lg:text-xl;
+}
+.text-cmyLg{
+    @apply text-sm sm:text-base md:text-base lg:text-lg;
+}
 .text-cmyBase{
     @apply text-xs sm:text-sm md:text-sm lg:text-base;
+}
+
+.skeleton{
+    @apply bg-gray-400/20 border border-gray-400 rounded-3xl
 }
