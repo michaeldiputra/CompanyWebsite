@@ -1,9 +1,7 @@
 {
     "private": true,
     "type": "module",
-    "scripts": {
-        "dev": "vite"
-    },
+    "scripts": {},
     "devDependencies": {
         "autoprefixer": "^10.4.20",
         "axios": "^1.7.4",
