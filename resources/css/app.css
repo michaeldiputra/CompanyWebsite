@@ -11,6 +11,9 @@ h2{
 p{
     @apply text-cmySlate-500 text-xs sm:text-sm md:text-sm lg:text-base;
 }
+.text-cmy4xl{
+    @apply text-2xl sm:text-3xl md:text-3xl lg:text-4xl;
+}
 .text-cmy2xl{
     @apply text-lg sm:text-xl md:text-xl lg:text-2xl;
 }
