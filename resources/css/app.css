@@ -9,7 +9,10 @@ h2{
     @apply font-cmyRaleway font-extrabold text-3xl sm:text-4xl md:text-5xl lg:text-6xl;
 }
 p{
-    @apply text-cmySlate-500 text-xs sm:text-sm md:text-sm lg:text-base;
+    @apply text-cmySlate-500 text-cmyBase;
+}
+.text-cmy5xl{
+    @apply text-3xl sm:text-4xl md:text-4xl lg:text-5xl;
 }
 .text-cmy4xl{
     @apply text-2xl sm:text-3xl md:text-3xl lg:text-4xl;
@@ -17,11 +20,17 @@ p{
 .text-cmy2xl{
     @apply text-lg sm:text-xl md:text-xl lg:text-2xl;
 }
+.text-cmy3xl{
+    @apply text-xl sm:text-2xl md:text-2xl lg:text-3xl;
+}
 .text-cmyXl{
     @apply text-base sm:text-lg md:text-lg lg:text-xl;
 }
 .text-cmyLg{
     @apply text-sm sm:text-base md:text-base lg:text-lg;
+}
+.text-cmyBase{
+    @apply text-xs sm:text-sm md:text-sm lg:text-base;
 }
 
 .skeleton{
